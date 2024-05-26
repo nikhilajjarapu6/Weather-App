@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <i class='bx bx-current-location'></i>
+            <input type="text" class="city">
+            <span><i class='bx bx-search-alt-2 search'></i></span>
+        </div>
+        <div class="weather">
+            <div class="image">
+                <img src="./clear.png" class="imagesrc" alt="">
+            </div>
+            <div class="temparature">
+                <div class="one">11<span>&#8451;</span></div>
+                <div class="two"><h2>Sunny Day</h2></div>
+            </div>
+            <div class="quality">
+                <div class="first"><i class='bx bx-water'></i><div><h4 class="humidity" >71%</h4>  Humidity</div></div>
+                <div class="second"><i class='bx bx-wind'></i><div><h4 class="air-speed" >6 Km/h</h4>Wind Spedd</div></div>
+            </div>
+        </div>
+
+        <div class="error">
+            <div class="error-image">
+                <img src="./404.png" alt="">
+            </div>
+            <div class="error-msg">Loaction Is Not Found <br> Please try searching for nearby cities</div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
